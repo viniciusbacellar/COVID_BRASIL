@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/viniciusbacellar/pca_facul/issues"
   },
-  "homepage": "https://github.com/viniciusbacellar/pca_facul#readme"
+  "homepage": "https://github.com/viniciusbacellar/pca_facul#readme",
+  "devDependencies": {
+    "standard": "^16.0.3"
+  }
 }
