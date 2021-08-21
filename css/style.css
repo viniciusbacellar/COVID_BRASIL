@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Nunito", sans-serif;
+}
+/* RESET */
+
+body {
+  background: #f5fbf9;
+}
+
+/* ESTILOS GERAIS */
+
+#fundo-branco {
+  background: #fff;
+  box-shadow: 0 7px 6px 0 rgba(23, 33, 44, 0.04);
+}
+#nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#nav-menu > a {
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #000;
+}
+#nav-menu ul {
+  display: flex;
+}
+#nav-menu ul li a {
+  font-weight: bold;
+  color: #889995;
+}
+#nav-menu ul li:first-child {
+  margin-right: 40px;
+}
