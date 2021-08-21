@@ -27,8 +27,6 @@ body {
   justify-content: space-between;
   padding-top: 20px;
   padding-bottom: 20px;
-  padding-right: 0;
-  padding-left: 0;
 }
 #nav-menu > a {
   font-size: 2em;
@@ -71,6 +69,7 @@ body {
   color: #889995;
 }
 
+/*NUMERO DE CASOS */
 .numero-casos {
   background: #1da584;
   padding: 20px 16px;
@@ -81,6 +80,7 @@ body {
   color: #bbe3d1;
   font-weight: bold;
   box-shadow: 0 7px 6px 0 rgba(13, 23, 34, 0.04);
+  margin: 0 10px 10px 10px;
 }
 
 .numero-casos p:first-child {
@@ -88,7 +88,7 @@ body {
 }
 
 .recuperados {
-  font-size: 50px;
+  font-size: 3em;
   color: #fff;
   margin-bottom: 10px;
 }
@@ -98,3 +98,109 @@ body {
   line-height: 36px;
   color: #fff;
 }
+/*NUMERO DE CASOS */
+
+/* CASOS CONFIRMADOS */
+.casos-confirmados {
+  padding: 20px 16px;
+  background: #fff;
+  margin: 0 10px 10px 10px;
+
+  border-radius: 10px;
+  box-shadow: 0 7px 6px 0 rgba(13, 23, 34, 0.04);
+}
+
+.title-confirmados {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #1da584;
+  margin-bottom: 10px;
+}
+
+.acumulado,
+.incidencia,
+.novos-casos {
+  font-size: 27px;
+  line-height: 20px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.casos-confirmados p {
+  font-size: 12px;
+  line-height: 6px;
+  color: #6f7982;
+}
+/* CASOS CONFIRMADOS */
+
+/* ÓBITOS CONFIRMADOS */
+.obitos-confirmados {
+  padding: 20px 16px;
+  background: #fff;
+  border-radius: 10px;
+  margin: 0 10px 10px 10px;
+
+  box-shadow: 0 7px 6px 0 rgba(13, 23, 34, 0.04);
+}
+
+.title-obitos {
+  font-size: 16px;
+  line-height: 18px;
+  color: #9fb5c8;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.obito-acumulado,
+.letalidade,
+.novos-obitos,
+.mortalidade {
+  font-size: 27px;
+  line-height: 20px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.obitos-confirmados p {
+  font-size: 12px;
+  line-height: 6px;
+  color: #6f7982;
+}
+/* ÓBITOS CONFIRMADOS */
+
+/* VEJA MAIS */
+.veja-mais {
+  padding: 20px 16px;
+  background: #fff;
+  border-radius: 10px;
+  margin: 0 10px 10px 10px;
+  box-shadow: 0 7px 6px 0 rgba(13, 23, 34, 0.04);
+}
+
+.veja-mais h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.veja-mais p {
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: bold;
+  color: rgba(75, 75, 84, 0.78);
+  margin-bottom: 15px;
+}
+
+.veja-mais a {
+  padding: 7px 20px;
+  border-radius: 5px;
+  background: #2fac8e;
+  color: #fff;
+  box-shadow: 0 5px 5px 0 rgba(13, 23, 34, 0.04);
+}
+/* VEJA MAIS */
