@@ -7,7 +7,7 @@
   vertical-align: baseline;
   text-decoration: none;
   list-style: none;
-  font-family: "Nunito", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 /* RESET */
 
@@ -27,6 +27,8 @@ body {
   justify-content: space-between;
   padding-top: 20px;
   padding-bottom: 20px;
+  padding-right: 0;
+  padding-left: 0;
 }
 #nav-menu > a {
   font-size: 2em;
@@ -43,4 +45,56 @@ body {
 }
 #nav-menu ul li:first-child {
   margin-right: 40px;
+}
+
+/* MENU */
+
+.painel-titulo {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.painel-titulo p:first-child {
+  color: #1da584;
+  font-weight: bold;
+}
+.painel-titulo h1 {
+  line-height: 34px;
+  font-size: 28px;
+}
+
+.painel-titulo h1 span {
+  font-weight: bold;
+}
+
+.painel-titulo p:last-child {
+  color: #889995;
+}
+
+.numero-casos {
+  background: #1da584;
+  padding: 20px 16px;
+  border-radius: 10px;
+}
+
+.numero-casos {
+  color: #bbe3d1;
+  font-weight: bold;
+  box-shadow: 0 7px 6px 0 rgba(13, 23, 34, 0.04);
+}
+
+.numero-casos p:first-child {
+  font-size: 22px;
+}
+
+.recuperados {
+  font-size: 50px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.acompanhamento {
+  font-size: 32px;
+  line-height: 36px;
+  color: #fff;
 }

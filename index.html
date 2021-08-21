@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="bibliotecas/bootstrap-grid.min.css">
   <link rel="stylesheet" href="css/style.css">
   <title>Covid Brasil</title>
@@ -18,9 +18,9 @@
   <div id="fundo-branco">
     <div class="container">
       <div class="row">
-        <nav id="nav-menu">
-          <a href="#">Covid Brasil</a>
-          <ul>
+        <nav id="nav-menu" class="flex-wrap">
+          <a href="#" class="col-md-6">Covid Brasil</a>
+          <ul class="col-md-6 justify-content-end">
             <li><a href="#">Painel Geral</a></li>
             <li><a href="#">Sobre</a></li>
           </ul>
@@ -31,10 +31,22 @@
   <!-- FINAL MENU -->
 
   <header class="container">
-    <div class="row">
+    <div class="row col-md-12 painel-titulo">
       <p>covid19</p>
-      <h1><span>Painel</span>Coran</h1>
+      <h1><span>Painel </span>Coranavírus</h1>
+      <p>Atualizado em:<span id="data"></span></p>
     </div>
+
+    <div class="row">
+      <div class="col-md-3 numero-casos">
+        <p>Casos recuperados</p>
+        <div class="recuperados">19.413.552</div>
+        <p>Em acompanhamento</p>
+        <div class="acompanhamento">541.036</div>
+      </div>
+
+    </div>
+
   </header>
 
 
