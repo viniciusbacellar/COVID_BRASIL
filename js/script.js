@@ -1,5 +1,5 @@
 
-function brazil () {
+function brazil() {
   fetch('https://covid19-brazil-api.vercel.app/api/report/v1/brazil/')
     .then(r => r.json())
     .then(totalBrazil => {
@@ -12,9 +12,9 @@ function brazil () {
       recuperados.innerHTML = (totalBrazil.data.confirmed - totalBrazil.data.deaths).toLocaleString('pt-BR')
     })
 }
-brazil()
+brazil();
 
-function estados () {
+function estados() {
   fetch('https://covid19-brazil-api.now.sh/api/report/v1')
     .then(r => r.json())
     .then(estadosBrazil => {
@@ -26,4 +26,14 @@ function estados () {
       acompanhamento.innerHTML = somaAcom.toLocaleString('pt-BR')
     })
 }
-estados()
+estados();
+
+
+function button() {
+  const button = document.querySelector('#botao');
+  function handleClick() {
+    window.open('dicas.html')
+  }
+  button.addEventListener('click', handleClick);
+}
+button();

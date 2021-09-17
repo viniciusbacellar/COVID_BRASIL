@@ -15,7 +15,17 @@ body {
   background: #f5fbf9;
 }
 
+.color-button {
+  background: #2fac8e;
+  color: #fff;
+}
+
+
 /* ESTILOS GERAIS */
+
+#fundo-verde {
+  background: #1da584;
+}
 
 #fundo-branco {
   background: #fff;
@@ -48,8 +58,8 @@ body {
 /* MENU */
 
 .painel-titulo {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .painel-titulo p:first-child {
@@ -85,12 +95,12 @@ body {
 
 .numero-casos p:first-child {
   font-size: 22px;
+  margin: 0;
 }
 
 .recuperados {
   font-size: 3em;
   color: #fff;
-  margin-bottom: 10px;
 }
 
 .acompanhamento {
@@ -204,3 +214,18 @@ body {
   box-shadow: 0 5px 5px 0 rgba(13, 23, 34, 0.04);
 }
 /* VEJA MAIS */
+
+.carrosel {
+  box-shadow: 0 7px 6px 0 rgba(13, 23, 34, 0.09);
+}
+
+#botao {
+  box-shadow: 0 5px 5px 0 rgba(13, 23, 34, 0.09);
+}
+
+
+/* FOOTER */
+#footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
