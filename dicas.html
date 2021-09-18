@@ -1,15 +1,185 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt_BR">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="bibliotecas/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
   <title>Dicas</title>
 </head>
 
 <body>
+  <div id="fundo-branco">
+    <div class="container">
+      <div class="row">
+        <nav id="nav-menu" class="flex-wrap">
+          <a href="#" class="col-md-6 text-decoration-none">Covid Brasil</a>
+          <ul class="col-md-6 justify-content-end my-0 p-0">
+            <li><a href="#" class="text-decoration-none">Painel Geral</a></li>
+            <li><a href="#" class="text-decoration-none">Sobre</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <!-- MENU -->
 
+  <div class="container">
+    <div class="row">
+      <div>
+        <div class=" form-floating my-4 px-2 d-flex">
+          <input type="text" class="form-control px-2 filtro" id="floatingInput" placeholder="name@example.com"
+            style="max-width: 200px; height: 40px;">
+          <label for="floatingInput" style="color: #757575; padding-top: 8px;">Busca Rápida</label>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- FILTRO -->
+
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-auto pb-4 px-3 d-flex justify-content-center div" style="padding: 0 0 24px 0;">
+        <div class="card bloco" style="max-width: 18rem; box-shadow: 0 7px 6px 0 rgba(13, 23, 34, 0.09);">
+          <img src="img/covid.jpg" class="card-img-top" alt="COVID-19">
+          <div class="card-body text-center d-flex align-items-center justify-content-center">
+            <p class="card-text fs-3 fw-bold">COVID-19</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-auto pb-4 px-3 d-flex justify-content-center div" style="padding: 0 0 24px 0;">
+        <div class="card bloco" style="max-width: 18rem; box-shadow: 0 7px 6px 0 rgba(13, 23, 34, 0.09);">
+          <img src=" img/gripe.jpg" class="card-img-top" alt="gripe comum">
+          <div class="card-body text-center d-flex align-items-center justify-content-center">
+            <p class="card-text fs-3 fw-bold">GRIPE COMUM</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-auto pb-4 px-3 d-flex justify-content-center div" style="padding: 0 0 24px 0;">
+        <div class="card bloco" style="max-width: 18rem; box-shadow: 0 7px 6px 0 rgba(13, 23, 34, 0.09);">
+          <img src="img/febre-amarela.jpg" class="card-img-top" alt="febre amarela">
+          <div class="card-body text-center d-flex align-items-center justify-content-center">
+            <p class="card-text fs-3 fw-bold">FEBRE AMARELA</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-auto pb-4 px-3 d-flex justify-content-center div" style="padding: 0 0 24px 0;">
+        <div class="card bloco" style="max-width: 18rem; box-shadow: 0 7px 6px 0 rgba(13, 23, 34, 0.09);">
+          <img src="img/catapora.jpg" class="card-img-top" alt="catapora">
+          <div class="card-body text-center d-flex align-items-center justify-content-center">
+            <p class="card-text fs-3 fw-bold">CATAPORA</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-auto pb-4 px-3 d-flex justify-content-center div" style="padding: 0 0 24px 0;">
+        <div class="card bloco" style="max-width: 18rem; box-shadow: 0 7px 6px 0 rgba(13, 23, 34, 0.09);">
+          <img src="img/sarampo.jpg" class="card-img-top" alt="SARAMPO">
+          <div class="card-body text-center d-flex align-items-center justify-content-center">
+            <p class="card-text fs-3 fw-bold">SARAMPO</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-auto pb-4 px-3 d-flex justify-content-center div" style="padding: 0 0 24px 0;">
+        <div class="card bloco" style="max-width: 18rem; box-shadow: 0 7px 6px 0 rgba(13, 23, 34, 0.09);">
+          <img src="img/caxumba.jpg" class="card-img-top" alt="caxumba">
+          <div class="card-body text-center d-flex align-items-center justify-content-center">
+            <p class="card-text fs-3 fw-bold">CAXUMBA</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-auto pb-4 px-3 d-flex justify-content-center div" style="padding: 0 0 24px 0;">
+        <div class="card bloco" style="max-width: 18rem; box-shadow: 0 7px 6px 0 rgba(13, 23, 34, 0.09);">
+          <img src="img/dengue.jpg" class="card-img-top" alt="dengue">
+          <div class="card-body text-center d-flex align-items-center justify-content-center">
+            <p class="card-text fs-3 fw-bold">DENGUE</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-auto pb-4 px-3 d-flex justify-content-center div" style="padding: 0 0 24px 0;">
+        <div class="card bloco" style="max-width: 18rem; box-shadow: 0 7px 6px 0 rgba(13, 23, 34, 0.09);">
+          <img src="img/tuberculose.jpg" class="card-img-top" alt="tuberculose">
+          <div class="card-body text-center d-flex align-items-center justify-content-center">
+            <p class="card-text fs-3 fw-bold">TUBERCULOSE</p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="col-lg-auto pb-4 px-3 d-flex justify-content-center div" style="padding: 0 0 24px 0;">
+        <div class="card bloco" style="max-width: 18rem; box-shadow: 0 7px 6px 0 rgba(13, 23, 34, 0.09);">
+          <img src="img/hpv.jpg" class="card-img-top" alt="hpv">
+          <div class="card-body text-center d-flex align-items-center justify-content-center">
+            <p class="card-text fs-3 fw-bold">HPV</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-auto pb-4 px-3 d-flex justify-content-center div" style="padding: 0 0 24px 0;">
+        <div class="card bloco" style="max-width: 18rem; box-shadow: 0 7px 6px 0 rgba(13, 23, 34, 0.09);">
+          <img src="img/ebola.jpg" class="card-img-top" alt="EBOLA">
+          <div class="card-body text-center d-flex align-items-center justify-content-center">
+            <p class="card-text fs-3 fw-bold">EBOLA</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-auto pb-4 px-3 d-flex justify-content-center div" style="padding: 0 0 24px 0;">
+        <div class="card bloco" style="max-width: 18rem; box-shadow: 0 7px 6px 0 rgba(13, 23, 34, 0.09);">
+          <img src="img/chagas.jpg" class="card-img-top" alt="doença de chagas">
+          <div class="card-body text-center d-flex align-items-center justify-content-center">
+            <p class="card-text fs-3 fw-bold">DOENÇA DE CHAGAS</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-lg-auto pb-4 px-3 d-flex justify-content-center div" style="padding: 0 0 24px 0;">
+        <div class="card bloco" style="max-width: 18rem; box-shadow: 0 7px 6px 0 rgba(13, 23, 34, 0.09);">
+          <img src="img/zika.jpg" class="card-img-top" alt="zika">
+          <div class="card-body text-center d-flex align-items-center justify-content-center">
+            <p class="card-text fs-3 fw-bold">ZIKA</p>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+    </div>
+  </div>
+
+
+
+
+
+
+  <!-- FOOTER -->
+  <footer id="fundo-verde">
+    <div class="container">
+      <div class="row mt-4">
+        <div id="footer">
+          <span>Copyright &copy; 2021 - Todos os Direitos Reservados - PCA</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="js/filtro.js"></script>
+  <script src="bibliotecas/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
