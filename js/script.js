@@ -32,7 +32,7 @@ estados();
 function button() {
   const button = document.querySelector('#botao');
   function handleClick() {
-    window.open('dicas.html')
+    window.location.assign('dicas.html')
   }
   button.addEventListener('click', handleClick);
 }

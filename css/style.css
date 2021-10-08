@@ -7,7 +7,7 @@
   vertical-align: baseline;
   text-decoration: none;
   list-style: none;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 /* RESET */
 
@@ -19,7 +19,6 @@ body {
   background: #2fac8e;
   color: #fff;
 }
-
 
 /* ESTILOS GERAIS */
 
@@ -53,6 +52,10 @@ body {
 }
 #nav-menu ul li:first-child {
   margin-right: 40px;
+}
+
+#nav-menu ul li:last-child {
+  margin-left: 40px;
 }
 
 /* MENU */
@@ -223,16 +226,10 @@ body {
   box-shadow: 0 5px 5px 0 rgba(13, 23, 34, 0.09);
 }
 
-
 /* FOOTER */
 #footer {
   padding-top: 15px;
   padding-bottom: 15px;
 }
 
-
-
-
-
 /* PAGINA DICAS */
-
