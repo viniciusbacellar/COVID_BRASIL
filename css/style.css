@@ -20,6 +20,10 @@ body {
   color: #fff;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 /* ESTILOS GERAIS */
 
 #fundo-verde {
